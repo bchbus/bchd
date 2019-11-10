@@ -5,6 +5,10 @@ bchd
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/gcash/bchd)
 
+#Disclaimer
+Please download latest releases from original repo https://github.com/gcash/bchd
+This fork is intended to give developers explanation about what settings to set in bchd.conf file for their development or production environment.
+
 bchd is an alternative full node bitcoin cash implementation written in Go (golang).
 
 This project is a port of the [btcd](https://github.com/btcsuite/btcd) codebase to Bitcoin Cash. It provides a high powered
