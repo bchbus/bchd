@@ -7,7 +7,12 @@ bchd
 
 # Disclaimer
 Please download latest releases from original repo https://github.com/gcash/bchd
-This fork is intended to give developers explanation about what settings to set in bchd.conf file for their development or production environment.
+This fork is intended to give developers explanation about what settings to set in bchd.conf file for their development or production environment. There are also a few features I'd like to add as well but right now it's just in idea phase.
+1. DDP Server that will work very much like gRPC. One benefit is being able to subscribe to a dataset that would be in sync with a client. Neutino wallet  https://github.com/gcash/neutrino would benefit from something like this by requesting memory pool transactions only related to the wallet and staying in sync as more are added to the memory pool before a block is minded.
+2. DroboPort https://github.com/droboports would be an excelent server people can keep as a trusted node. Paired with something like localtunnel https://github.com/localtunnel/localtunnel would enable wallets like neutrino https://github.com/gcash/neutrino to be connected to a backend controlled by the wallet owner. 
+3. React Dashboard would be helpful to get a status of what is going on with the node.
+
+
 # Introduction
 bchd is an alternative full node bitcoin cash implementation written in Go (golang).
 
